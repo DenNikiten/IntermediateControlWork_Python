@@ -1,8 +1,7 @@
 from logger import input_new_note, print_notes, print_one_note, filter_notes_date, delete_note, edit_note
 
 def interface():
-    file_name = "data_note.csv"
-    # notes = read_notes_file(file_name)
+    file_name = "data_note.csv"    
 
     command = -1
     while command != 7:
